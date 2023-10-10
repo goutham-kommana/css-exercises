@@ -25,3 +25,55 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+}
+
+ul {
+  /* this removes the dots on the list */
+  list-style-type: none;
+  display: flex;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+}
+
+.left-links{
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+  flex-grow: 1;
+}
+
+.right-links{
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 15px;
+  padding-right: 30px;  
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.footer {
+  display: flex;
+  align-items: flex-end;
+  background-color: #eeeeee;
+}
+
+button {
+  padding: 8px 12px;
+}
