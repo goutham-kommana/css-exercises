@@ -27,3 +27,63 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.body {
+  flex: 1;
+  display: flex;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+  width: 300px;
+}
+
+.sidebar{
+  display: flex;
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
+}
+
+ul{
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+  gap: 10px;
+}
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: white;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 300px;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 32px;
+}
+
